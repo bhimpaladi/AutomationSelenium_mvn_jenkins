@@ -12,6 +12,7 @@ public class NewTest {
 	  @Test
 	  public void openMyBlog() {
 	driver.get("https://www.softwaretestingmaterial.com/");
+	System.out.println(driver.getTitle());
 	  }
 	  
 	  @BeforeClass
@@ -20,7 +21,7 @@ public class NewTest {
 	  /*System.setProperty("webdriver.gecko.driver", "D:\\Selenium\\Drivers\\geckodriver.exe");
 	  driver = new FirefoxDriver();
 	  */
-	  System.setProperty("webdriver.chrome.driver", "F:\\Git\\Selenium_Project\\Drivers\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "F:\\Git\\GIT_Repositories\\Selenium_Project\\Drivers\\chromedriver.exe");
 	  driver = new ChromeDriver();
 	  
 	  
