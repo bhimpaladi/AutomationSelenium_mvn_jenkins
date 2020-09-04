@@ -11,7 +11,7 @@ public class NewTest {
 	public WebDriver driver;
 	  @Test
 	  public void openMyBlog() {
-	driver.get("https://www.softwaretestingmaterial.com/");
+	driver.get("https://www.youtube.com/");
 	System.out.println(driver.getTitle());
 	  }
 	  
