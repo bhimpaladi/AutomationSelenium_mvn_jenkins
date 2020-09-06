@@ -1,4 +1,4 @@
-package tests;
+package Desktop;
 
 import org.testng.annotations.Test;
 
