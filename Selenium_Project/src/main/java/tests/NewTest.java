@@ -11,7 +11,7 @@ public class NewTest {
 	public WebDriver driver;
 	  @Test
 	  public void openMyBlog() {
-		  System.out.println(System.getProperty("Enviroment"));
+		  System.out.println(System.getProperty("Env"));
 	driver.get("https://www.youtube.com/");
 	System.out.println(driver.getTitle());
 	  }
